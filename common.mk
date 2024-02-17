@@ -356,3 +356,15 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+
+# Derpfest stuff
+
+TARGET_HAS_UDFPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_NOT_USES_BLUR := true
+WITH_GMS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_MINI_GAPPS := true
+PRODUCT_NO_CAMERA := false
+TARGET_BOOT_ANIMATION_RES := 1080
+DERP_BUILDTYPE := Official
