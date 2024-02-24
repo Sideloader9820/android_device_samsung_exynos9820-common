@@ -357,3 +357,15 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+
+# Rising stuff
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_HAS_UDFPS := true
+PRODUCT_NO_CAMERA := false
+TARGET_ENABLE_BLUR := false
+RISING_CHIPSET := "Exynos982x"
+RISING_MAINTAINER := "Mgm2023"
+RISING_PACKAGE_TYPE := Core
+
