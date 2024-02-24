@@ -13,6 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 ## Inherit proprietary vendor configuration
 include vendor/samsung/exynos9820-common/BoardConfigVendor.mk
 
